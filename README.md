@@ -108,7 +108,8 @@ Once your services are set up, ping the other network.
 Example: Have DNSServer0 ping WebServer1. If that works, type WebServer1's IP into a browser to see if the webpage pops up. If it does, try again with the domain name set. If it works, you're all set!
 
 ***
-<div style="text-align:center">FAQ</div>
+
+### <div style="text-align:center">FAQ</div>
 
 Q: What if I can’t see the console?
 
