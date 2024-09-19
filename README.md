@@ -108,6 +108,42 @@ Once your services are set up, ping the other network.
 Example: Have DNSServer0 ping WebServer1. If that works, type WebServer1's IP into a browser to see if the webpage pops up. If it does, try again with the domain name set. If it works, you're all set!
 
 ***
+<div style="text-align:center">FAQ</div>
+
+Q: What if I can’t see the console?
+
+Try these troubleshooting techniques:
+
+1. Make sure the router is on.
+
+2. Make sure you have the correct path to your console cable, such as /ls/dev/usbtty0
+
+3. Make sure the baud rate matches the router’s baud rate. For the Cisco 2900 series, that baud rate is 9600.
+
+4. Try a different console emulator (such as PuTTY)
+
+5. Try a different cable.
+- DB9 cables are prone to breaking. If a direct Ethernet connection is possible, take that option. You do not need a DB9 nessecarily to console in to equipment, especially if the device doesn’t have a DB9 port.
+
+
+
+Q: What if I can’t ping the other LAN?
+
+1. Ping the router first. If you can ping the router, you may want to check the settings on the other port.
+
+2. Ping someone within your LAN. If you can, then your settings are correct. Inform the other LAN to check their settings. If you cannot ping anyone, check your IP, subnet mask, and default gateway to see if it’s typed correctly.
+
+Q: I can’t execute any commands in the console?
+
+A: Make sure you are in the correct mode. You need to enable executive priveleges by typing
+
+<code>en</code>
+
+Before execution, it should like this: <code>Router></code>
+
+You will get this output: <code>Router#</code>
+
+***
 
 ### <div style="text-align:center">Retrospective</div>
 
