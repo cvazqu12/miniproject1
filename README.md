@@ -136,7 +136,7 @@ Q: What if I can’t ping the other LAN?
 
 Q: I can’t execute any commands in the console?
 
-A: Make sure you are in the correct mode. You need to enable executive priveleges by typing
+A: Make sure you are in the correct mode. You need to enable executive priveleges by typing:
 
 <code>en</code>
 
