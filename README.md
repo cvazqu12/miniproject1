@@ -70,7 +70,7 @@ Example: <code style="color:skyblue">screen /dev/usbtty0 9600</code>
 
 For this lab, we will be using a Cisco 2900 series router, so these instructions are meant specifically for Cisco's IOS. Please consult your router's documentation if the router does match.
 
-Please take a look at Figure 2 for the commands to set up a port configuration on a Cisco 2900 Series Router. This is for LAN 0. Repeat the same steps for LAN1. 
+Please take a look at Figure 2 for the commands to set up a port configuration on a Cisco 2900 Series Router. This is for LAN0. Repeat the same steps for LAN1. 
 
 **<div style="color:skyblue">Step 4: Configuring End Devices</div>**
 
@@ -91,7 +91,19 @@ Since the IP block is 192.168.0.0/26, we can use the information to plug in the 
     - Personal IP address: 192.168.0.4
     - Subnet Mask: 255.255.255.192
 
-For DNS, NAMO was used for DNS and Apache2 was used for the Web server.
+You can choose any mapping for the Personal IP address as long as it's exclusive to that machine. Two servers cannot share the same personal IP address. The DNS Server's IP is the personal IP address. All other machines need to point to the DNS server for their "DNS Server" option.
+
+**<div style="color:skyblue">Step 5: Configuring Services</div>**
+
+For DNS, NAMO was used for DNS and Apache2 was used for the Web server. 
+
+Apache2 simply requires being installed for it to work on Linux machines. It comes with a webpage to test if the service is working. Configuring Apache2 is done through the terminal.
+
+NAMO requires adding an A record for the service to work. 
+
+Once your services are set up, ping the other network. 
+
+Example: Have DNSServer0 ping WebServer1. If that works, type WebServer1's IP into a browser to see if the webpage pops up. If it does, try again with the domain name set. If it works, you're all set!
 
 
 
