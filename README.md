@@ -72,6 +72,8 @@ For this lab, we will be using a Cisco 2900 series router, so these instructions
 
 Please take a look at Figure 2 for the commands to set up a port configuration on a Cisco 2900 Series Router. This is for LAN0. Repeat the same steps for LAN1. 
 
+![CiscoIOSTerminal](CiscoIOSTerminal.png "Cisco IOS Commands")
+
 **<div style="color:skyblue">Step 4: Configuring End Devices</div>**
 
 Once your router is configured, each of the end devices need to have their IP addresses configured. Each system will not have the same configuration, but they all need to have mappings for:
