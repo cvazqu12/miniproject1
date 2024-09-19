@@ -105,9 +105,23 @@ Once your services are set up, ping the other network.
 
 Example: Have DNSServer0 ping WebServer1. If that works, type WebServer1's IP into a browser to see if the webpage pops up. If it does, try again with the domain name set. If it works, you're all set!
 
+### <div style="text-align:center">Retrospective</div>
 
+<div style="color:skyblue">Setbacks and Challenges</div>
 
+There weren’t many setbacks on my end for this project, as I have the unfair advantage of being in the industry for over a year, on top on having great mentors and the will to accelerate my learning. Consoling in at this point wasn’t foreign of a concept for me, and neither was configuring IP addresses. 
 
+I did struggle to understand that the power button flicked down indicates that the router is not on. We spent most of the class trying to troubleshoot the console until I realized the router wasn’t even on in the first place. Whoops!
+
+<div style="color:skyblue">Insights</div>
+
+What was very new to me was learning how to accomplish all of what I’ve previously done into a Linux environment. My laptop at work runs on Windows 11, so for consoling in, I used PuTTY. On Linux, because PuTTY does not work on my computer, I went with screen, which is much easier to use. I also never knew how to set up my own web server, but that wasn’t too horrible of an issue. I have Ollama and Chatbox installed on my computer, so even when I have zero connection to the internet, I’m still able to ask Llama3.1 questions on the fly, which helped accelerate my teams progress tremendously. 
+
+Going through the console on the router has helped me revisit the console for my own capstone project. My project is designed to help better automate the provisioning process for bare metal servers, with version 1.0 meant to configure the IPMI of a server. 
+
+<div style="color:skyblue">Improvement</div>
+
+If there is anything that I can improve on in the future, it would be simply allowing others to do more of the work, since I’ve carried the team heavily throughout this project.
 
 
 
